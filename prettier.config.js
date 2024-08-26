@@ -7,7 +7,7 @@ const config = {
   tabWidth: 2,
   semi: false,
   singleQuote: true,
-  endOfLine: 'lf',
+  endOfLine: 'auto',
 }
 
 export default config

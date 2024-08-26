@@ -1,4 +1,3 @@
-import './App.css'
 import s from './App.module.scss'
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
         aliquid, sequi obcaecati placeat hic qui laboriosam illum natus earum
         consectetur aliquam.
       </p>
+      <p>Vite + React</p>
     </div>
   )
 }
