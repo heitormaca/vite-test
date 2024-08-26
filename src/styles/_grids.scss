@@ -103,10 +103,10 @@ $gap-vertical: $gap-horizontal;
 }
 
 .two-dimensional-grid {
+  height: 400px;
+
   @include grid;
   @include gridLayout((7, 2), (5, 1), (5, 1), (12, 1));
-
-  height: 400px;
 
   div {
     height: auto;
