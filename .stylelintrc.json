@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "plugins": ["stylelint-prettier"],
+  "rules": {
+    "prettier/prettier": true,
+    "scss/at-mixin-pattern": null,
+    "scss/at-function-pattern": null,
+    "scss/no-global-function-names": null,
+    "selector-class-pattern": null,
+    "scss/dollar-variable-pattern": null
+  }
+}

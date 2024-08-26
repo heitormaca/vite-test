@@ -1,0 +1,44 @@
+@use 'reset';
+@use 'vars';
+@use 'colors';
+@use 'typography';
+@use 'spacing';
+@use 'grids';
+@use 'utils';
+
+body {
+  background: var(--color-body);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  height: 100%;
+  min-height: 100vh;
+}
+
+a {
+  transition: var(--duration);
+}
+
+.missing {
+  display: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  appearance: textfield;
+}
+
+// @include utils.breakpoint(md) {
+//   a {
+//     &:hover,
+//     &:visited:hover {
+//       color: var(--color-tertiary);
+//     }
+//   }
+// }

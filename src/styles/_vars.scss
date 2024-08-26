@@ -1,0 +1,16 @@
+:root {
+  --duration: 0.3s;
+  --box-shadow-primary: 0px 0px 50px 0px var(--box-shadow-color-primary);
+  --box-shadow-secondary: 0px 0px 27.86px 0px var(--box-shadow-color-primary);
+  --box-shadow-tertiary: 0px 2.82px 2.82px 0px var(--box-shadow-color-secondary);
+  --box-shadow-quaternary: inset 0 -485px 120px -50px var(--black);
+  --box-shadow-quinary: inset 45vw -300px 226px 60px var(--black);
+  --box-shadow-senary: inset 35vw -300px 226px 60px var(--black);
+  --box-shadow-septenary: 30px 0 40px var(--gray-o-600);
+  --box-shadow-octonary: -30px 0 40px var(--gray-o-600);
+  --box-shadow-nonary: 0 4px 4px 0 var(--gray-o-900);
+  --border-radius-xs: 6.7px;
+  --border-radius-sm: 8.5px;
+  --border-radius-md: 12px;
+  --border-radius-xl: 100px;
+}

@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "format": "eslint --fix",
+    "prettier": "prettier --write",
     "preview": "vite preview",
     "prepare": "husky"
   },
@@ -29,16 +30,26 @@
     "husky": "^9.1.5",
     "lint-staged": "^15.2.9",
     "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "stylelint": "^16.8.2",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-prettier": "^5.0.2",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
+      "pnpm prettier",
+      "pnpm format",
       "pnpm lint"
     ],
+    "*.{scss}": [
+      "pnpm stylelint --fix",
+      "pnpm prettier"
+    ],
     "*.json": [
-      "prettier --write"
+      "pnpm prettier"
     ]
   }
 }
